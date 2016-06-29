@@ -4,9 +4,6 @@
  * (c) 2013-2015 MIT License, https://likeastore.com
  */
 
-(function (root, factory) {
-    factory(root.angular);
-}(this, function (angular) {
     'use strict';
 
     var m = angular.module('ngDialog', []);
@@ -855,6 +852,3 @@
             }
         };
     }]);
-
-    return m;
-}));
